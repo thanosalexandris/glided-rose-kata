@@ -3,7 +3,7 @@ import { UpdateableItem } from "./contracts/UpdateableItem";
 
 export default class NormalItem extends Item implements UpdateableItem {
   updateQuality() {
-    if (this.name !== 'Legendary Item') {
+    if (this.name !== "Legendary Item") {
       if (this.quality > 0) {
         this.quality -= 1;
       }

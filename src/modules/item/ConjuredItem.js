@@ -1,4 +1,4 @@
-import Item from './Item';
+import Item from "./Item";
 export default class ConjuredItem extends Item {
     updateQuality() {
         if (this.quality > 0) {

@@ -1,7 +1,7 @@
 import Item from "./Item";
 export default class NormalItem extends Item {
     updateQuality() {
-        if (this.name !== 'Legendary Item') {
+        if (this.name !== "Legendary Item") {
             if (this.quality > 0) {
                 this.quality -= 1;
             }
