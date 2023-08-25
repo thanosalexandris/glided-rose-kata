@@ -1,4 +1,3 @@
-import Item from '../item/Item';
 import UpdateableItem from '../item/contracts/UpdateableItem';
 
 export default class Shop {
