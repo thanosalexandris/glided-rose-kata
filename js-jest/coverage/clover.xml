@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1692958651012" clover="3.2.0">
+  <project timestamp="1692958651012" name="All files">
+    <metrics statements="81" coveredstatements="78" conditionals="74" coveredconditionals="61" methods="17" coveredmethods="17" elements="172" coveredelements="156" complexity="0" loc="81" ncloc="81" packages="3" files="8" classes="8"/>
+    <package name="src">
+      <metrics statements="21" coveredstatements="21" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="gilded_rose.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/gilded_rose.js">
+        <metrics statements="21" coveredstatements="21" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.item">
+      <metrics statements="54" coveredstatements="51" conditionals="65" coveredconditionals="55" methods="12" coveredmethods="12"/>
+      <file name="AgedBrieItem.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/modules/item/AgedBrieItem.js">
+        <metrics statements="10" coveredstatements="9" conditionals="13" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+      <file name="BackstagePassesItem.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/modules/item/BackstagePassesItem.js">
+        <metrics statements="14" coveredstatements="13" conditionals="19" coveredconditionals="17" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+      </file>
+      <file name="ConjuredItem.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/modules/item/ConjuredItem.js">
+        <metrics statements="10" coveredstatements="9" conditionals="13" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="2" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+      <file name="Item.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/modules/item/Item.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="5" count="33" type="stmt"/>
+        <line num="6" count="33" type="stmt"/>
+        <line num="7" count="33" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+      </file>
+      <file name="NormalItem.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/modules/item/NormalItem.js">
+        <metrics statements="10" coveredstatements="10" conditionals="13" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+      <file name="SulfurasItem.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/modules/item/SulfurasItem.js">
+        <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.shop">
+      <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Shop.js" path="/Users/thanosalexander/Code/creativeForce/challenges/glided-rose-kata/js-jest/src/modules/shop/Shop.js">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
