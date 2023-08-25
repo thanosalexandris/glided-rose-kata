@@ -29,3 +29,5 @@ To generate test coverage report
 ```sh
 npm run test:coverage
 ```
+
+![100% test coverage](images/coverage.png)
