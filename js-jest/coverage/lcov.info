@@ -120,8 +120,12 @@ FN:3,(anonymous_0)
 FNF:1
 FNH:1
 FNDA:24,(anonymous_0)
-LF:0
-LH:0
+DA:4,24
+DA:5,24
+DA:6,24
+DA:7,24
+LF:4
+LH:4
 BRF:0
 BRH:0
 end_of_record
