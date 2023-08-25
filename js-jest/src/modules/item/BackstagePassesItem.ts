@@ -1,5 +1,5 @@
 import Item from './Item';
-import UpdateableItem from './contracts/UpdateableItem';
+import { UpdateableItem } from './contracts/UpdateableItem';
 
 export default class BackstagePassItem extends Item implements UpdateableItem {
     updateQuality() {

@@ -1,10 +1,13 @@
-import UpdateableItem from '../item/contracts/UpdateableItem';
+import { UpdateableItem } from "../item/contracts/UpdateableItem";
 
 export default class Shop {
-    constructor(private items: UpdateableItem[]) {}
+    items: UpdateableItem[];
+    constructor(items: UpdateableItem[]) {
+        this.items = items;
+    }
 
     updateQuality() {
-        this.items.forEach(item => item.updateQuality());
+        this.items.forEach((item) => item.updateQuality());
         return this.items;
     }
 }

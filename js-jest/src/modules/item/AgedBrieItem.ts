@@ -1,5 +1,5 @@
 import Item from './Item';
-import UpdateableItem from './contracts/UpdateableItem';
+import {UpdateableItem} from './contracts/UpdateableItem';
 
 export default class AgedBrieItem extends Item implements UpdateableItem {
     updateQuality() {

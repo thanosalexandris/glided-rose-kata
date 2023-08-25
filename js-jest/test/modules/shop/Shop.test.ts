@@ -1,5 +1,5 @@
 import Shop from '../../../src/modules/shop/Shop';
-import UpdateableItem from '../../../src/modules/item/contracts/UpdateableItem';
+import {UpdateableItem} from '../../../src/modules/item/contracts/UpdateableItem';
 import AgedBrieItem from '../../../src/modules/item/AgedBrieItem';
 import BackstagePassesItem from '../../../src/modules/item/BackstagePassesItem';
 import ConjuredItem from '../../../src/modules/item/ConjuredItem';
