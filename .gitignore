@@ -1,9 +1,1 @@
-bin
-obj
-*.sln.DotSettings.user
-.vs
-vendor
-.idea
-*.iml
-csharpcore/GildedRoseTests/ApprovalTest.ThirtyDays.received.txt
-js-jest/node_modules
+/.idea/
