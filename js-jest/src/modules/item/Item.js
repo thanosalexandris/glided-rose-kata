@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Item {
     constructor(name, sellIn, quality) {
         this.name = name;
@@ -7,4 +5,4 @@ class Item {
         this.quality = quality;
     }
 }
-exports.default = Item;
+export default Item;

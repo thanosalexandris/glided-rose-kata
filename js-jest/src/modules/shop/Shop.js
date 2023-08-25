@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class Shop {
+export default class Shop {
     constructor(items) {
         this.items = items;
     }
@@ -9,4 +7,3 @@ class Shop {
         return this.items;
     }
 }
-exports.default = Shop;

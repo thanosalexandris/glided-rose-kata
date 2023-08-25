@@ -1,10 +1,5 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const Item_1 = __importDefault(require("./Item"));
-class AgedBrieItem extends Item_1.default {
+import Item from "./Item";
+export default class AgedBrieItem extends Item {
     updateQuality() {
         if (this.quality < 50) {
             this.quality += 1;
@@ -15,4 +10,3 @@ class AgedBrieItem extends Item_1.default {
         }
     }
 }
-exports.default = AgedBrieItem;
