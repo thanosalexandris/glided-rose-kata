@@ -36,7 +36,7 @@ describe('AgedBrieItem', () => {
 
     it('should not increase quality when quality is already 50 (negative sellIn)', () => {
         item.quality = 50;
-        item.sellIn = 0; // Test with negative sellIn
+        item.sellIn = -1; // Test with negative sellIn
         item.updateQuality();
         expect(item.quality).toBe(50);
     });
