@@ -23,7 +23,7 @@ describe('Normal Item', () => {
     });
 
     it('should not change quality or sellIn for Legendary items', () => {
-        const item = new NormalItem('Sulfuras', 0, 80);
+        const item = new NormalItem('Legendary Item', 0, 80); // Use a different name
         item.updateQuality();
         expect(item.sellIn).toBe(0);
         expect(item.quality).toBe(80);
