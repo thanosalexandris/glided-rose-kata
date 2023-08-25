@@ -10,24 +10,46 @@ Install dependencies
 npm install
 ```
 
-## Running tests
+# Project Commands
 
-To run all tests
+This document outlines the commands used for various tasks in the project.
 
-```sh
-npm test
-```
+## Testing
 
-To run all tests in watch mode
+- **Run Tests:** Run TypeScript compiler, ESLint, Prettier, and Jest tests.
+    ```sh
+    npm run test
+    ```
 
-```sh
-npm run test:watch
-```
+- **Watch Tests:** Run TypeScript compiler and Jest tests in watch mode.
+    ```sh
+    npm run test:watch
+    ```
 
-To generate test coverage report
+- **Test Coverage:** Run TypeScript compiler and generate a test coverage report.
+    ```sh
+    npm run test:coverage
+    ```
 
-```sh
-npm run test:coverage
-```
+## Linting
 
-![100% test coverage](images/coverage.png)
+- **Lint Code:** Run ESLint using the Babel parser for linting.
+    ```sh
+    npm run lint
+    ```
+
+- **Lint and Fix:** Run ESLint using the Babel parser and automatically fix issues.
+    ```sh
+    npm run lint:fix
+    ```
+
+## Formatting
+
+- **Format Code:** Use Prettier to automatically format TypeScript files.
+    ```sh
+    npm run format
+    ```
+
+## Code Coverage: 100%
+
+![Code Coverage: 100%](images/coverage.png)
