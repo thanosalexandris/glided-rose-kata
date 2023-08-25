@@ -1,13 +1,11 @@
 import Item from '../item/Item';
-class Shop {
-    constructor(private items: Item[] = []) {}
+import UpdateableItem from '../item/contracts/UpdateableItem';
+
+export default class Shop {
+    constructor(private items: UpdateableItem[]) {}
 
     updateQuality() {
-        for (let i = 0; i < this.items.length; i++) {
-            this.items[i].updateQuality();
-        }
+        this.items.forEach(item => item.updateQuality());
         return this.items;
     }
 }
-
-export default Shop;

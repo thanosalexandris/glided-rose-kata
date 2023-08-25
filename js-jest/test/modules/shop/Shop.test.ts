@@ -1,5 +1,5 @@
 import Shop from '../../../src/modules/shop/Shop';
-import Item from '../../../src/modules/item/Item';
+import UpdateableItem from '../../../src/modules/item/contracts/UpdateableItem';
 import AgedBrieItem from '../../../src/modules/item/AgedBrieItem';
 import BackstagePassesItem from '../../../src/modules/item/BackstagePassesItem';
 import ConjuredItem from '../../../src/modules/item/ConjuredItem';
@@ -8,11 +8,11 @@ import SulfurasItem from '../../../src/modules/item/SulfurasItem';
 
 describe('Shop', () => {
     it('should update quality for multiple items', () => {
-        const items: Item[] = [
+        const items: UpdateableItem[] = [
             new AgedBrieItem('Aged Brie', 5, 10),
             new BackstagePassesItem('Backstage Passes', 15, 10),
             new ConjuredItem('Conjured', 5, 10),
-            new SulfurasItem('Sulfuras, Hand of Ragnaros', 0, 80),
+            new SulfurasItem('Sulfuras', 0, 80),
             new NormalItem('Normal Item', 5, 10),
         ];
 
@@ -36,11 +36,11 @@ describe('Shop', () => {
     });
 
     it('should correctly update quality for multiple days', () => {
-        const items: Item[] = [
+        const items: UpdateableItem[] = [
             new AgedBrieItem('Aged Brie', 5, 10),
             new BackstagePassesItem('Backstage Passes', 15, 10),
             new ConjuredItem('Conjured', 5, 10),
-            new SulfurasItem('Sulfuras, Hand of Ragnaros', 0, 80),
+            new SulfurasItem('Sulfuras', 0, 80),
             new NormalItem('Normal Item', 5, 10),
         ];
 
@@ -67,7 +67,7 @@ describe('Shop', () => {
     });
 
     it('should handle an empty item list', () => {
-        const items: Item[] = [];
+        const items: UpdateableItem[] = [];
         const gildedRose = new Shop(items);
         gildedRose.updateQuality();
     });

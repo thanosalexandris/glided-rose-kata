@@ -61,7 +61,7 @@ describe('TextTest Fixture', () => {
                     expect(updatedQuality).toBe(initialQuality);
                     expect(updatedSellIn).toBe(initialSellIn);
                 }
-                else if (item instanceof ConjuredItem_1.default) {
+                else {
                     if (initialSellIn > 0) {
                         expect(updatedQuality).toBe(initialQuality - 2);
                     }

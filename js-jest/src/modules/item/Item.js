@@ -6,6 +6,5 @@ class Item {
         this.sellIn = sellIn;
         this.quality = quality;
     }
-    updateQuality() { }
 }
 exports.default = Item;

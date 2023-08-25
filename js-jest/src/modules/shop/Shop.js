@@ -1,13 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Shop {
-    constructor(items = []) {
+    constructor(items) {
         this.items = items;
     }
     updateQuality() {
-        for (let i = 0; i < this.items.length; i++) {
-            this.items[i].updateQuality();
-        }
+        this.items.forEach(item => item.updateQuality());
         return this.items;
     }
 }

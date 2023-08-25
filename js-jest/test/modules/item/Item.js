@@ -1,22 +1,14 @@
 "use strict";
-// src/modules/item/Item.ts
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-class Item {
-    constructor(name, sellIn, quality) {
-        this.name = name;
-        this.sellIn = sellIn;
-        this.quality = quality;
-    }
-    updateQuality() {
-        if (this.name !== 'Sulfuras, Hand of Ragnaros') {
-            this.sellIn -= 1;
-            if (this.quality > 0) {
-                this.quality -= 1;
-                if (this.sellIn < 0) {
-                    this.quality -= 1;
-                }
-            }
-        }
-    }
-}
-exports.default = Item;
+const Item_1 = __importDefault(require("../../../src/modules/item/Item"));
+describe('Item', () => {
+    it('should create an Item', () => {
+        const item = new Item_1.default('Some Item', 10, 20);
+        expect(item.name).toBe('Some Item');
+        expect(item.sellIn).toBe(10);
+        expect(item.quality).toBe(20);
+    });
+});

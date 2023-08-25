@@ -1,20 +1,15 @@
-import Item from './modules/item/Item';
-import NormalItem from './modules/item/NormalItem';
+import Shop from './modules/shop/Shop';
 import AgedBrieItem from './modules/item/AgedBrieItem';
-import BackstagePassesItem from './modules/item/BackstagePassesItem';
-import SulfurasItem from './modules/item/SulfurasItem';
+import BackstagePassItem from './modules/item/BackstagePassesItem';
 import ConjuredItem from './modules/item/ConjuredItem';
+import NormalItem from './modules/item/NormalItem';
+import SulfurasItem from './modules/item/SulfurasItem';
 
-class Shop {
-    constructor(private items: Item[] = []) {
-    }
-
-    updateQuality() {
-        for (const item of this.items) {
-            item.updateQuality();
-        }
-        return this.items;
-    }
-}
-
-export {Shop, Item, NormalItem, AgedBrieItem, BackstagePassesItem, SulfurasItem, ConjuredItem};
+export {
+    Shop,
+    AgedBrieItem,
+    BackstagePassItem,
+    ConjuredItem,
+    NormalItem,
+    SulfurasItem,
+};

@@ -10,7 +10,7 @@ describe("Gilded Rose", function () {
   });
 
   it("should not change quality or sellIn for Legendary items", function () {
-    const gildedRose = new Shop([new Item("Sulfuras, Hand of Ragnaros", 0, 80)]);
+    const gildedRose = new Shop([new Item("Sulfuras", 0, 80)]);
     const items = gildedRose.updateQuality();
     for (const item of items) {
       expect(item.quality).toBe(80);

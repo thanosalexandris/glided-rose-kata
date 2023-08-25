@@ -15,7 +15,7 @@ describe('Shop', () => {
             new AgedBrieItem_1.default('Aged Brie', 5, 10),
             new BackstagePassesItem_1.default('Backstage Passes', 15, 10),
             new ConjuredItem_1.default('Conjured', 5, 10),
-            new SulfurasItem_1.default('Sulfuras, Hand of Ragnaros', 0, 80),
+            new SulfurasItem_1.default('Sulfuras', 0, 80),
             new NormalItem_1.default('Normal Item', 5, 10),
         ];
         const gildedRose = new Shop_1.default(items);
@@ -36,7 +36,7 @@ describe('Shop', () => {
             new AgedBrieItem_1.default('Aged Brie', 5, 10),
             new BackstagePassesItem_1.default('Backstage Passes', 15, 10),
             new ConjuredItem_1.default('Conjured', 5, 10),
-            new SulfurasItem_1.default('Sulfuras, Hand of Ragnaros', 0, 80),
+            new SulfurasItem_1.default('Sulfuras', 0, 80),
             new NormalItem_1.default('Normal Item', 5, 10),
         ];
         const gildedRose = new Shop_1.default(items);
@@ -58,7 +58,6 @@ describe('Shop', () => {
     it('should handle an empty item list', () => {
         const items = [];
         const gildedRose = new Shop_1.default(items);
-        gildedRose.updateQuality(); // This should not throw any errors.
+        gildedRose.updateQuality();
     });
-    // Add more tests for Shop
 });

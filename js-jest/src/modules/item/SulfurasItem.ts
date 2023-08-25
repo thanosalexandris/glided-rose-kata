@@ -1,7 +1,8 @@
 import Item from './Item';
+import UpdateableItem from './contracts/UpdateableItem';
 
-export default class SulfurasItem extends Item {
+export default class SulfurasItem extends Item implements UpdateableItem {
     updateQuality() {
-        // Sulfuras quality never changes.
+        // Sulfuras items never change in quality or sellIn
     }
 }
