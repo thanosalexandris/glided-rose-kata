@@ -1,3 +1,4 @@
+/* eslint-disable jest/expect-expect */
 import Shop from '../../../src/modules/shop/Shop';
 import {UpdateableItem} from '../../../src/modules/item/contracts/UpdateableItem';
 import AgedBrieItem from '../../../src/modules/item/AgedBrieItem';

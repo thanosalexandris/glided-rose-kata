@@ -1,3 +1,4 @@
+/* eslint-disable jest/expect-expect */
 import Shop from '../../../src/modules/shop/Shop';
 import AgedBrieItem from '../../../src/modules/item/AgedBrieItem';
 import BackstagePassesItem from '../../../src/modules/item/BackstagePassesItem';
