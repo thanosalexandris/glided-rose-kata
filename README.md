@@ -50,6 +50,18 @@ This document outlines the commands used for various tasks in the project.
     npm run format
     ```
 
+## Running Jest in Docker Container
+
+- **Build Docker Image:** Build the Docker image for running tests.
+    ```sh
+    docker build -t gilded-rose .
+    ```
+- **Run Tests:** Run the tests in the Docker container and remove the only this container when finished.
+    ```sh
+    docker run -t -a=STDOUT gilded-rose npm run test:coverage && docker ps -a | grep "Exited" | awk '{print $1}' | xargs docker rm
+    ```
+
+
 ## Code Coverage: 100%
 
 ![Code Coverage: 100%](images/coverage.png)
